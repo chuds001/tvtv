@@ -1,0 +1,381 @@
+[  
+  {
+    "tag": "俄国-R-T",
+    "type": "trojan",
+    "server": "ds003.pp.ua",
+    "server_port": 443,
+    "password": "49db782c-6f31-4424-a860-5560e7222b33",
+    "tls": {
+      "enabled": true,
+      "server_name": "ds003.pp.ua",
+      "insecure": false,
+      "alpn": [
+        "http/1.1"
+      ],
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    }
+  
+  },
+  {
+    "tag": "俄国-R-VM",
+    "type": "vmess",
+    "server": "ds003.pp.ua",
+    "server_port": 443,
+    "uuid": "49db782c-6f31-4424-a860-5560e7222b33",
+    "security": "auto",
+    "alter_id": 0,
+    "tls": {
+      "enabled": true,
+      "server_name": "ds003.pp.ua",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "ds003.pp.ua"
+      },
+      "max_early_data": null,
+      "path": "/cdsvws"
+    }
+  },
+  {
+    "tag": "俄国-R-VL",
+    "type": "vless",
+    "server": "ds003.pp.ua",
+    "server_port": 443,
+    "uuid": "49db782c-6f31-4424-a860-5560e7222b33",
+    "tls": {
+      "enabled": true,
+      "server_name": "ds003.pp.ua",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "ds003.pp.ua"
+      },
+      "max_early_data": null,
+      "path": "/cdsws"
+    }
+  },
+  
+  {
+    "tag": "俄国-R-H2",
+    "type": "hysteria2",
+    "server": "ds003.pp.ua",
+    "server_port": 443,
+    "up_mbps": 50,
+    "down_mbps": 100,
+    "password": "49db782c-6f31-4424-a860-5560e7222b33",
+    "tls": {
+    "enabled": true,
+    "server_name": "ds003.pp.ua",
+    "alpn": [
+      "h3"
+    ]
+  }
+  },
+  {
+      "tag": "美国-R-T",
+      "type": "trojan",
+      "server": "ds001.pp.ua",
+      "server_port": 443,
+      "password": "7da9e4e5-79b5-4dd2-87f7-e39a35ce945e",
+      "tls": {
+        "alpn": [
+          "http/1.1"
+        ],
+        "enabled": true,
+        "server_name": "ds001.pp.ua",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+
+    },
+    {
+      "tag": "美国-R-VM",
+      "type": "vmess",
+      "server": "ds001.pp.ua",
+      "server_port": 443,
+      "uuid": "7da9e4e5-79b5-4dd2-87f7-e39a35ce945e",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "ds001.pp.ua",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "packet_encoding": "packetaddr",
+      "transport": {
+        "type": "ws",
+        "path": "/cdsvws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+
+    },
+    {
+      "tag": "美国-R-H2",
+      "type": "hysteria2",
+      "server": "ds001.pp.ua",
+      "server_port": 443,
+      "up_mbps": 50,
+      "down_mbps": 100,
+      "password": "7da9e4e5-79b5-4dd2-87f7-e39a35ce945e",
+      "tls": {
+        "enabled": true,
+        "server_name": "ds001.pp.ua",
+        "alpn": [
+          "h3"
+        ]
+      }
+
+    },
+    {
+      "tag": "美国-R-VL",
+      "type": "vless",
+      "server": "ds001.pp.ua",
+      "server_port": 443,
+      "uuid": "7da9e4e5-79b5-4dd2-87f7-e39a35ce945e",
+      "tls": {
+        "enabled": true,
+        "server_name": "ds001.pp.ua",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 32
+      },
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/cdsws",
+        "headers": {
+          "Host": "ds001.pp.ua"
+        }
+      }
+
+    },
+  {
+    "tag": "日本-DB-1-T",
+    "type": "trojan",
+    "server": "ds009.pp.ua",
+    "server_port": 443,
+    "password": "5ac98875-1165-484a-ae2b-6f6ebc31133c",
+    "tls": {
+      "enabled": true,
+      "server_name": "ds009.pp.ua",
+      "insecure": false,
+      "alpn": [
+        "http/1.1"
+      ],
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    }
+  },
+  {
+    "tag": "日本-DB-1-VM",
+    "type": "vmess",
+    "server": "ds009.pp.ua",
+    "server_port": 443,
+    "uuid": "5ac98875-1165-484a-ae2b-6f6ebc31133c",
+    "security": "auto",
+    "alter_id": 0,
+    "tls": {
+      "enabled": true,
+      "server_name": "ds009.pp.ua",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "ds009.pp.ua"
+      },
+      "max_early_data": null,
+      "path": "/cdsvws"
+    }
+  },
+  {
+    "tag": "日本-DB-1-VL",
+    "type": "vless",
+    "server": "ds009.pp.ua",
+    "server_port": 443,
+    "uuid": "5ac98875-1165-484a-ae2b-6f6ebc31133c",
+    "tls": {
+      "enabled": true,
+      "server_name": "ds009.pp.ua",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "flow": "xtls-rprx-vision"
+  },
+  {
+    "tag": "日本-DB-2-VM",
+    "type": "vmess",
+    "server": "chuds007.cloudns.biz",
+    "server_port": 443,
+    "uuid": "618a5033-f24e-4793-8691-9e57ff5b0e52",
+    "security": "auto",
+    "alter_id": 0,
+    "tls": {
+      "enabled": true,
+      "server_name": "chuds007.cloudns.biz",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "chuds007.cloudns.biz"
+      },
+      "max_early_data": null,
+      "path": "/cdsvws"
+    }
+  },
+  {
+    "tag": "日本-DB-2-T",
+    "type": "trojan",
+    "server": "chuds007.cloudns.biz",
+    "server_port": 443,
+    "password": "618a5033-f24e-4793-8691-9e57ff5b0e52",
+    "tls": {
+      "enabled": true,
+      "server_name": "chuds007.cloudns.biz",
+      "insecure": false,
+      "alpn": [
+        "http/1.1"
+      ],
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    }
+  },
+  {
+    "tag": "日本-DB-2-VL",
+    "type": "vless",
+    "server": "chuds007.cloudns.biz",
+    "server_port": 443,
+    "uuid": "618a5033-f24e-4793-8691-9e57ff5b0e52",
+    "tls": {
+      "enabled": true,
+      "server_name": "chuds007.cloudns.biz",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "flow": "xtls-rprx-vision"
+  },
+  {
+    "tag": "日本-DB-2-H2",
+    "type": "hysteria2",
+    "server": "chuds007.cloudns.biz",
+    "server_port": 23347,
+    "password": "9a2e0d13-21cd-4b19-a7d4-fc667a65b675",
+    "tls": {
+      "enabled": true,
+      "server_name": "chuds007.cloudns.biz",
+      "insecure": false
+    }
+  },
+  {
+    "tag": "美国-RS-T",
+    "type": "trojan",
+    "server": "ds.cds.qzz.io",
+    "server_port": 22484,
+    "password": "2ded1150-959f-4701-9ded-b0cdf6b50a50",
+    "tls": {
+      "enabled": true,
+      "server_name": "ds.cds.qzz.io",
+      "insecure": false,
+      "alpn": [
+        "http/1.1"
+      ],
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    }
+  },
+  {
+    "tag": "美国-RS-VM",
+    "type": "vmess",
+    "server": "ds.cds.qzz.io",
+    "server_port": 8443,
+    "uuid": "2ded1150-959f-4701-9ded-b0cdf6b50a50",
+    "security": "auto",
+    "alter_id": 0,
+    "tls": {
+      "enabled": true,
+      "server_name": "ds.cds.qzz.io",
+      "insecure": false
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "ds.cds.qzz.io"
+      },
+      "max_early_data": null,
+      "path": "/cds"
+    }
+  },
+  {
+    "tag": "美国-RS-VL",
+    "type": "vless",
+    "server": "ds.cds.qzz.io",
+    "server_port": 443,
+    "uuid": "2ded1150-959f-4701-9ded-b0cdf6b50a50",
+    "tls": {
+      "enabled": true,
+      "server_name": "ds.cds.qzz.io",
+      "insecure": false,
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "transport": {
+      "type": "ws",
+      "headers": {
+        "Host": "ds.cds.qzz.io"
+      },
+      "max_early_data": null,
+      "path": "/cdsws"
+    }
+  },
+  {
+    "tag": "美国-RS-H2",
+    "type": "hysteria2",
+    "server": "ds.cds.qzz.io",
+    "server_port": 22479,
+    "password": "2ded1150-959f-4701-9ded-b0cdf6b50a50",
+    "tls": {
+      "enabled": true,
+      "server_name": "ds.cds.qzz.io",
+      "insecure": false
+    }
+  
+  }
+  
+]
