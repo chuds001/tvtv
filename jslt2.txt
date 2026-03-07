@@ -358,6 +358,16 @@ CCTV-卫生健康,http://107.150.60.122/live/wsjk.m3u8
 周润发电影,http://107.150.60.122/live/lbzrf.m3u8
 周星驰电影,http://107.150.60.122/live/lbzxc.m3u8
 林正英影院,http://107.150.60.122/live/lblzy.m3u8
+江苏卫视-4k 超清,http://112.86.202.37:8112/JSBC_iptv/C10000455@JSBC
+江苏卫视-4K 超清,http://112.86.202.37:8112/JSBC_iptv/C10000454@JSBC
+浙江卫视-4k 超清,http://112.86.202.37:8112/JSBC_iptv/C10000457@JSBC
+北京卫视-4K 超清,http://112.86.202.37:8112/JSBC_iptv/C10000425@JSBC
+上海卫视-4k 超清,http://112.86.202.37:8112/JSBC_iptv/C10000463@JSBC
+湖南卫视-4k 超清,http://112.86.202.37:8112/JSBC_iptv/C10000461@JSBC
+四川卫视-4k 超清,http://112.86.202.37:8112/JSBC_iptv/C10000459@JSBC
+山东卫视-4k 超清,http://112.86.202.37:8112/JSBC_iptv/C10000465@JSBC
+广东卫视-4K 超清,http://112.86.202.37:8112/JSBC_iptv/C10000436@JSBC
+深圳卫视-4K 超清,http://112.86.202.37:8112/JSBC_iptv/C10000438@JSBC
 
 
 
